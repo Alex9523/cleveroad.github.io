@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
-<body>
+<body >  
+    
     <header>
         <div class="located">
             <h3>ISS is now located at:</h3>
             <p class="actual-located"></p>
         </div>
         <div class="time">
-            <h3>Current UTC time: </h3>
-            <p class="actual-time">Test p</p>
+            <div id="txt"> </div>
         </div>
-        <h1 id="json"></h1>
     </header>
 
     <section id="map">
@@ -25,10 +26,9 @@
     <aside class="astronauts">
     </aside>
 
-    
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src="index.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="index.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB2LJkGQ8vpGokB8_DWo-usBMZHA0PHGI&callback=initMap"></script>
 </body>
 </html>
