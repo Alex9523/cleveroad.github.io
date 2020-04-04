@@ -1,0 +1,24 @@
+#map {
+    height: 70%;
+    width: 70%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+  }
+  .header{
+    margin: 10px;
+}
+
+.located {
+    width: 70%;
+  }
+  #map{
+    padding: 2px;
+    border: 0.5px solid;
+  }
+.time, .located{
+    display: inline-block;
+    padding: 2px;
+    border: 0.5px solid;
+  }
