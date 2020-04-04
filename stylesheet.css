@@ -13,12 +13,17 @@
 .located {
     width: 70%;
   }
-  #map{
+  #map, .astronauts{
+    display: inline-block;
     padding: 2px;
     border: 0.5px solid;
   }
 .time, .located{
     display: inline-block;
+    padding: 2px;
+    border: 0.5px solid;
+  }
+  .astronaut-name{
     padding: 2px;
     border: 0.5px solid;
   }

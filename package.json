@@ -1,0 +1,29 @@
+{
+  "name": "cleveroad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "webpack-cli": "^3.3.11",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex9523/cleveroad.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex9523/cleveroad.github.io/issues"
+  },
+  "homepage": "https://github.com/Alex9523/cleveroad.github.io#readme"
+}
