@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.4.1",
-    "webpack-cli": "^3.3.11",
+    "webpack-cli": "^3.3.12",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
