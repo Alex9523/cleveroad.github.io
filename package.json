@@ -5,11 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.4.1",
-    "webpack-cli": "^3.3.11",
+    "webpack-cli": "^5.0.1",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
-    "webpack": "^4.42.1"
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "build": "webpack",
